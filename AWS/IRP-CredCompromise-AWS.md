@@ -95,7 +95,7 @@ Ensure no persistence or follow-up actions remain from the attacker.
 2. Use AWS Config to identify unauthorized changes to users, roles, or resources.
 3. Collaborate with Appsec/Cloudsec to trace the root cause.
    - Examples: exposed secrets in GitHub, `.gitignore` misconfiguration.
-4. Use `BFG Repo-Cleaner` to scrub secrets:
+4. If its needed ... Use `BFG Repo-Cleaner` to scrub secrets:
 
 ```bash
 bfg --delete-files "*.env"
