@@ -136,5 +136,3 @@ Restore trust in the environment and prevent future recurrence.
 - Perform red team simulation to validate future readiness.
 
 ---
-
-For questions or continuous updates, refer to the [AWS IAM documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) and [AWS Security Best Practices](https://docs.aws.amazon.com/security/?id=docs_gateway).
