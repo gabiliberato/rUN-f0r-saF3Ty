@@ -100,8 +100,3 @@ aws sns create-topic --name RootAccountAlerts
 - Add root use detection to Security Hub/GuardDuty.
 
 ---
-
-References:
-- [AWS Root Account Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#lock-away-credentials)
-- [Security Incident Response Guide](https://docs.aws.amazon.com/security/?id=docs_gateway)
-- [IAM Access Analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html)
