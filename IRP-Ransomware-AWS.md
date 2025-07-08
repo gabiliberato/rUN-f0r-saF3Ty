@@ -95,8 +95,3 @@ aws ec2 run-instances --image-id <ami-id> --subnet-id <clean-subnet>
 - Update detection rules (GuardDuty, Config Rules).
 
 ---
-
-For reference:
-- [AWS Security Incident Response Guide](https://docs.aws.amazon.com/security/?id=docs_gateway)
-- [S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-overview.html)
-- [AWS Backup](https://docs.aws.amazon.com/aws-backup/)
