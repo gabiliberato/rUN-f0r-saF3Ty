@@ -112,8 +112,3 @@ aws logs describe-log-groups
 - Add detection rules in Security Hub and GuardDuty.
 
 ---
-
-For updates and integrations, refer to:
-- [AWS CodePipeline Security](https://docs.aws.amazon.com/codepipeline/latest/userguide/security.html)
-- [AWS Security Incident Response Guide](https://docs.aws.amazon.com/security/?id=docs_gateway)
-- [SLSA Framework](https://slsa.dev/) for secure software supply chains.
