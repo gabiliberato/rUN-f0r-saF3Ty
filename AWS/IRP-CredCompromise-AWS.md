@@ -93,7 +93,7 @@ Ensure no persistence or follow-up actions remain from the attacker.
 ### Steps:
 1. Search CloudTrail for resource creation (IAM, EC2, Lambda, etc.).
 2. Use AWS Config to identify unauthorized changes to users, roles, or resources.
-3. Collaborate with DevOps to trace the root cause.
+3. Collaborate with Appsec/Cloudsec to trace the root cause.
    - Examples: exposed secrets in GitHub, `.gitignore` misconfiguration.
 4. Use `BFG Repo-Cleaner` to scrub secrets:
 
@@ -105,6 +105,7 @@ bfg --delete-text "AWS_SECRET_ACCESS_KEY"
 ### Outputs:
 - Persistence removed.
 - Secret completely removed from version control.
+- Root Cause Analysis.
 
 ---
 
