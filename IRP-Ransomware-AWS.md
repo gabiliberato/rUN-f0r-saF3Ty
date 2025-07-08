@@ -91,8 +91,3 @@ aws ec2 run-instances --image-id <ami-id> --subnet-id <subnet-id>
 - Enforce segmentation and automation of recovery workflows.
 
 ---
-
-References:
-- [AWS Security Incident Response Guide](https://docs.aws.amazon.com/security/?id=docs_gateway)
-- [Amazon Inspector](https://docs.aws.amazon.com/inspector/)
-- [S3 Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-overview.html)
